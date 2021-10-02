@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+}
+#bannerbtn{
+    background-color: #F50157;
+    border: none;
+    padding: 0.3rem 1.8rem;
+}
+#banner{
+    margin-top: 7rem !important;
+    margin-bottom: 7rem;
+}
+#banner .card{
+    width: 100%;
+}
+#banner .card img{
+    width: 100%;
+}
+#banner .card-img-overlay{
+    display: block;
+    background: none !important;
+    margin: 4rem 2rem;
+    padding: 0 4rem;
+    width: 50%;
+}

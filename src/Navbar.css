@@ -1,0 +1,31 @@
+.navbar-brand img{
+    height: 2.5rem;
+    width: 3.2rem;
+}
+.nav-item{
+    margin: 0 0.5rem;
+    font-size: large;
+}
+.nav-item .nav-link .btn-secondary{
+    background-color: #F50157;
+    border: none;
+    padding: 0.25rem 1.8rem;
+}
+.nav-item .nav-link i{
+    font-size: 1.05rem;
+}
+.ql-1, .ql-2, .ql-3, .ql-4, .ql-5{
+    display: block;
+}
+.ql-1-1, .ql-2-2, .ql-3-3, .ql-4-4, .ql-5-5{
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .ql-1, .ql-2, .ql-3, .ql-4, .ql-5{
+        display: none;
+    }
+    .ql-1-1, .ql-2-2, .ql-3-3, .ql-4-4, .ql-5-5{
+        display: block;
+    }
+  }

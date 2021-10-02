@@ -1,0 +1,61 @@
+.bgdiv{
+    background: linear-gradient(0deg, #fff 30%, rgba(128, 128, 128, 0.097) 0%);
+}
+.row{
+    display: inline-flexbox;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.justify-content-center{
+    text-align: center;
+}
+#brandcard{
+    width: 95%;
+    height: 30rem;
+    padding: 2.5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#brandcard .img-fluid{
+    min-height: 27.45rem;
+    min-width: 100%;
+    border-radius: 5px;
+}
+#brandcard .card-body{
+    padding: 3.5% 7%;
+    text-align: left;
+}
+#brandcard .card-body .card-title{
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+#brandcard .card-body .card-text{
+    font-size: medium;
+    margin-bottom: 2rem;
+}
+#brandcard .card-body .card-text img{
+    width: 7rem;
+    height: auto;
+}
+#brandcard button{
+    padding: 0.5rem 1rem;
+}
+@media screen and (max-width: 768px){
+    #brandcard .imgdiv{
+        display: none;
+    }
+    #branchcard .textdiv{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 377px){
+    #brandcard{
+        height: 40rem !important;
+    }
+}
+@media screen and (min-width: 339px) and (max-width: 377px) {
+    #brandcard{
+        height: 32rem !important;
+    }
+}
